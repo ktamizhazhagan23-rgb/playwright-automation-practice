@@ -1,0 +1,29 @@
+1. You write TypeScript (.spec.ts)
+
+2. Playwright detects the file
+
+3. Playwright transpiles TS → JS
+
+4. Node.js executes the generated JavaScript
+
+5. When Node.js reaches a Playwright command
+   (page.click, page.fill, page.goto)
+
+6. Node.js calls Playwright API
+
+7. Playwright API performs its smart checks
+   - wait for element
+   - check visible
+   - check enabled
+   - scroll into view
+   - retry if needed
+
+8. Playwright sends browser commands
+
+9. Browser performs actual action
+
+10. Result comes back to Playwright
+
+11. Playwright returns result to Node.js
+
+12. Test continues to next line
