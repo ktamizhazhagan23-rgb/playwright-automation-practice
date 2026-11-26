@@ -24,7 +24,7 @@ test('pwActions Practice', async ({ page }) => {
 })
 
 
-test.only('CheckBox and RadioButton Practice', async ({ page }) => {
+test('CheckBox and RadioButton Practice', async ({ page }) => {
 
     await page.goto('https://testautomationpractice.blogspot.com/')
     const radioButton: Locator = page.locator('#male')

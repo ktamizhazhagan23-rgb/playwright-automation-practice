@@ -28,7 +28,7 @@ test('multi Select dropdowns', async ({ page }) => {
     console.log(await alltext.allTextContents())
 
     //check and return all the options present in the dropdown
-    const alltxtValue : string[] = ((await alltext.allTextContents()).map(text=>text.trim()))
+    const alltxtValue: string[] = ((await alltext.allTextContents()).map(text => text.trim()))
     console.log(expect(alltxtValue))
 
     //check one of the value is present or  not

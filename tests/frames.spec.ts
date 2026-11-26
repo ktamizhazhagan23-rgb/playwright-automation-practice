@@ -23,7 +23,7 @@ test('iFrames Practice', async ({ page }) => {
 
 })
 //Approach 3 - Handle inner/Child Element
-test.only('handle Inner/Child iFrame', async ({ page }) => {
+test('handle Inner/Child iFrame', async ({ page }) => {
     await page.goto('https://ui.vision/demo/webtest/frames/')
 
     // Approach 3 - frame inside a frame (Google Form inside frame_3.html)

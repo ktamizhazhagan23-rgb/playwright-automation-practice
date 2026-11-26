@@ -1,0 +1,1 @@
+{"errors":[{"timestamp":1794729897878,"message":"beforeEach hook failed: Error: BASE_URL is missing from .env","trace":"Error: BASE_URL is missing from .env\n    at LoginPage (C:\\Users\\tamiz\\playwright-automation\\pages\\loginPage.ts:13:11)\n    at C:\\Users\\tamiz\\playwright-automation\\tests\\practiceLogin.spec.ts:5:21"}],"attachments":[]}

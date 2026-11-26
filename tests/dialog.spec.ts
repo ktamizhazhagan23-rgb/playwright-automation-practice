@@ -64,7 +64,7 @@ test('Hande confirmation alert', async ({ page }) => {
 })
 
 
-test.only('Hande Prompt alert', async ({ page }) => {
+test('Hande Prompt alert', async ({ page }) => {
     await page.goto('https://testautomationpractice.blogspot.com/')
 
     //Register a dialog handler

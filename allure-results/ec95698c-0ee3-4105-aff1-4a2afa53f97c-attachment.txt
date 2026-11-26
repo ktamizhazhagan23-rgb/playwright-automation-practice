@@ -1,0 +1,3 @@
+Total elements: 30
+Visible elements: 30
+Hidden elements: 0

@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9702","sdet login practice","chromium","2026-11-17","failed","2026-11-17","","sdetLoginTest.spec.ts","",""
+"","1694","Login practice to sausedemo page","chromium","2026-11-15","passed","2026-11-15","","practiceLogin.spec.ts","",""
+"","3532","login with email: laura.taylor1234@example.com and password: test123","chromium","2026-11-04","passed","2026-11-04","Login practice","paramsJson1.spec.ts","",""
+"","2899","login with email: laura.taylor1234@example.com and password: testinvalid","chromium","2026-11-04","passed","2026-11-04","Login practice","paramsJson1.spec.ts","",""
+"","3440","login with email: laurainvalid@example.com and password: test123","chromium","2026-11-04","passed","2026-11-04","Login practice","paramsJson1.spec.ts","",""

@@ -55,7 +55,7 @@ test("filter and count the rows", async ({ page }) => {
 })
 
 
-test.only('Search for specific data in the pagination table', async ({ page }) => {
+test('Search for specific data in the pagination table', async ({ page }) => {
     await page.goto('https://practice.expandtesting.com/dynamic-pagination-table')
 
     let searchBox: Locator = page.locator("[type='search']")
