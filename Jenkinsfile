@@ -20,10 +20,10 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
-            steps {
-                bat 'npx playwright test --project=chromium'
-            }
-        }
+       stage('Run Tests') {
+    steps {
+        bat 'npx playwright test tests/MyFirstTest.spec.ts tests/MyFirstTest2.spec.ts'
+    }
+}
     }
 }
