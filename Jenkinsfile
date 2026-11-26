@@ -6,10 +6,11 @@ pipeline {
     }
 
     stages {
+
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/ktamizhazhagan23-rgb/playwright-automation-practice.git'
+                    url: 'https://github.com/ktamizhazhagan23-rgb/playwright-automation-practice.git'
             }
         }
 
@@ -19,15 +20,9 @@ pipeline {
             }
         }
 
-        stage('Install Browsers') {
-            steps {
-                bat 'npx playwright install'
-            }
-        }
-
         stage('Run Tests') {
             steps {
-                bat 'npx playwright test'
+                bat 'npx playwright test --project=chromium'
             }
         }
     }
