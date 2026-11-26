@@ -19,7 +19,11 @@ pipeline {
                 bat 'npm install'
             }
         }
-
+stage('Install Browser') {
+    steps {
+        bat 'set PLAYWRIGHT_DOWNLOAD_CONNECTION_TIMEOUT=120000 && npx playwright install chromium'
+    }
+}
        stage('Run Tests') {
     steps {
         bat 'npx playwright test tests/MyFirstTest.spec.ts tests/MyFirstTest2.spec.ts'
